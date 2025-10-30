@@ -1,0 +1,30 @@
+/* Example @font-face for GBMSans in woff2 format */
+
+@font-face {
+  font-family: 'GBMSans';
+  src: url('GBMSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GBMSans';
+  src: url('GBMSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GBMSans';
+  src: url('GBMSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Ejemplo de uso */
+body {
+  font-family: 'GBMSans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
